@@ -1,0 +1,29 @@
+.logo {
+  font-size: 100%;
+  margin: 0;
+  margin-top: 50px;
+  padding: 0;
+  font-weight: bold;
+  display: inline-block;
+  position: relative;
+  padding-right: 5px;
+}
+
+.logo:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 3px;
+  right: 0;
+  bottom: 3px;
+  width: 1px;
+  background: red;
+  -webkit-animation: cursor 1s infinite;
+  animation: cursor 1s infinite;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .logo {
+    margin-top: 15px;
+  }
+}

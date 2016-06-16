@@ -1,0 +1,16 @@
+header {
+    ul {
+        @extend %clearfix;
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    li {
+        float: left;
+    }
+    a, a:hover {
+        display: block;
+        border: none;
+        line-height: 100%;
+        padding: 10px;
+    }
+}
